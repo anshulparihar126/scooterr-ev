@@ -1,0 +1,523 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+// @include for-max-1920 {
+//   .left-panel {
+//     width: 40%;
+//   }
+//   .center-image {
+//     width: 40%;
+//   }
+//   .right-specs {
+//     width: 20%;
+//   }
+// }
+@include for-max-1699 {
+    .left-panel {
+        width: 40%;
+    }
+    .center-image {
+        width: 40%;
+    }
+    .right-specs {
+        width: 20%;
+    }
+}
+
+@include for-max-1399 {
+    .commonHeading {
+        h2 {
+            font-size: 40px;
+        }
+        h5 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@include for-max-1399 {
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 80%;
+    }
+    .ourQualityCardContent h6 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .ourQualityCardContent p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .ourQuality .ourQualityCard .ourQualityImg {
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+    }
+    .ourQuality .ourQualityCard .ourQualityImg img {
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+    }
+    .ourQualityCardContent {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .swiper-slide.last {
+        transform: translateX(-54px);
+    }
+    .swiper-slide.first {
+        transform: translateX(54px);
+    }
+    .slide-content {
+        transform: scale(0.6) translateY(18px);
+    }
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .slide-counter {
+        top: 68px;
+    }
+    .swiper::before {
+        top: 0px;
+    }
+    .testimonial-name a {
+        font-size: 24px;
+    }
+    .slider-item {
+        padding: 50px 40px;
+    }
+    .left-panel h6 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 8px;
+    }
+    .left-panel h2 {
+        font-weight: 700;
+        font-size: 72px;
+    }
+    .right-specs span {
+        font-size: 16px;
+    }
+}
+
+@include for-max-1199 {
+    .relatedScooterItem .relatedScooterContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .commonHeading h2 {
+        font-size: 32px;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox {
+        margin-top: 30px;
+    }
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 85%;
+    }
+    .swiper-slide.swiper-slide-prev {
+        transform: translateX(10px);
+    }
+    .swiper-slide.first {
+        transform: translateX(86px);
+    }
+    .swiper-slide.swiper-slide-next {
+        transform: translateX(-12px);
+    }
+    .swiper-slide.last {
+        transform: translateX(-86px);
+    }
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .slide-counter {
+        right: 4%;
+        font-size: 26px;
+    }
+    .swiper-slide-active .slide-content {
+        padding: 10px;
+        transform: scaleX(1.2);
+    }
+    .owl-theme .owl-dots {
+        margin-top: 20px !important;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .commonHeading h5 {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .commonHeading h5 svg {
+        height: 18px;
+    }
+    .right-specs h6 strong {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .right-specs h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .right-specs {
+        padding: 14px;
+    }
+    .left-panel h2 {
+        font-size: 64px;
+    }
+    .left-panel h6 {
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 4px;
+    }
+}
+
+@include for-max-991 {
+    .commonHeading {
+        h2 {
+            font-size: 26px;
+        }
+        h5 {
+            font-size: 18px;
+            gap: 10px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .subscribeNewsletter:after {
+        width: 150px;
+    }
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 100%;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option span {
+        font-size: 14px;
+    }
+    .menu-options .menu-item .menu-text p {
+        font-size: 14px;
+    }
+    .menu-options .menu-item .menu-text h6 {
+        font-size: 16px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-container {
+        grid-template-columns: 180px 1fr 180px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(1) {
+        transform: translateX(16px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(2) {
+        transform: translateX(38px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(3) {
+        transform: translateX(32px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(4) {
+        transform: translateX(20px);
+    }
+    .menu-options .menu-item:nth-child(4) {
+        transform: translateX(-40px);
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form {
+        display: flex;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form .formGroup {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 15px;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form .formGroup.formGroupBtn {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .relatedScooterItem .relatedScooterImg img {
+        width: 130px;
+        height: 130px;
+    }
+    .relatedScooterItem .relatedScooterContent p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .commonHeading h5 {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .ourQualityCardContent h6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .ourQualityCardContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .evCommonInnerPageHeading h2 {
+        font-size: 26px;
+    }
+    .swiper {
+        padding: 0px 0;
+        &::after {
+            display: none;
+        }
+    }
+    .slide-counter {
+        top: 26px;
+    }
+    .swiper::before {
+        width: 100px;
+        height: 100px;
+        right: 18%;
+    }
+    .bookingForm {
+        padding: 50px 0 0;
+    }
+    .chooseYourScooter,
+    .ourQuality,
+    .moveOverPetrol,
+    .evTestimonial {
+        padding: 50px 0;
+    }
+    .left-panel {
+        width: 50%;
+    }
+    .center-image {
+        width: 50%;
+    }
+    .right-specs {
+        width: 100%;
+    }
+    .right-specs {
+        margin-top: 20px;
+        ul {
+            display: flex;
+            gap: 20px;
+            li {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@include for-max-767 {
+    .commonHeading {
+        h2 {
+            font-size: 26px;
+        }
+        h5 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .subscribeNewsletterInput .groupInput {
+        flex-direction: column;
+        width: 100%;
+    }
+    .commonHeading {
+        margin-bottom: 20px;
+    }
+    .evOurTeam {
+        padding: 50px 0;
+    }
+    .subscribeNewsletter {
+        padding: 40px 0;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamTabName p {
+        font-size: 20px;
+    }
+    .evOurTeamNav {
+        margin: 30px 0;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamTabName p {
+        font-size: 18px;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamIcon img {
+        width: 30px;
+        height: 30px;
+    }
+    .subscribeNewsletter:after {
+        width: 118px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-container {
+        grid-template-columns: 1fr;
+    }
+    .menu-options {
+        flex-direction: unset;
+        gap: 20px;
+        align-items: end;
+        padding: 0;
+    }
+    .menu-options::after {
+        display: none;
+    }
+    .menu-options .menu-item {
+        gap: 14px;
+        flex-direction: column-reverse;
+    }
+    .menu-options {
+        .menu-item {
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5) {
+                transform: unset;
+            }
+        }
+        .left-panel h6 {
+            font-size: 20px;
+            line-height: 12px;
+            letter-spacing: 4px;
+        }
+    }
+    .menu-options {
+        flex-direction: unset;
+        gap: 26px;
+        align-items: unset;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options {
+        padding: 0;
+        flex-direction: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option {
+        flex-direction: column;
+    }
+    .chooseYourScooter {
+        .chooseYourScooterInner {
+            .color-options {
+                .color-option {
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(4),
+                    &:nth-child(5) {
+                        transform: unset;
+                    }
+                }
+            }
+        }
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options::after {
+        content: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-images-Tab .cloudimage-360 .cloudimage-360-inner-box canvas {
+        transform: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options {
+        justify-content: center;
+        width: 100%;
+    }
+    .right-specs span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .left-panel h2 {
+        font-size: 42px;
+    }
+    .left-panel p {
+        font-size: 12px;
+        padding-left: 12px;
+    }
+    .right-specs h6 strong {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .right-specs h6 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .left-panel h6 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 4px;
+    }
+    .slideCounter {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .slider-item {
+        padding: 30px 15px;
+    }
+}
+
+@include for-max-575 {
+    .commonHeading h2 {
+        font-size: 20px;
+    }
+    .commonHeading {
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+        h5 {
+            font-size: 14px;
+        }
+    }
+    .subscribeNewsletterInput .groupInput input {
+        height: 40px;
+        font-size: 14px;
+    }
+    .subscribeNewsletterInput .groupInput .btn2 {
+        height: 40px;
+    }
+    .left-panel,
+    .center-image {
+        width: 100%;
+    }
+    .center-image {
+        margin-top: 20px;
+    }
+    .right-specs ul li {
+        width: 42%;
+    }
+    .right-specs ul {
+        flex-wrap: wrap;
+    }
+    .topSliderWrapper .topSliderInner {
+        grid-template-columns: 60px 1fr;
+    }
+    .menu-options {
+        gap: 16px;
+    }
+    .menu-options .menu-item .menu-text h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .testimonial-slider {
+        padding: 30px 15px;
+    }
+}
+
+@include for-max-375 {
+    .commonHeading h5 svg {
+        width: 8px;
+    }
+}

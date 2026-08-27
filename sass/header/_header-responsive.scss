@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@include for-max-1599 {
+    .sideToggleBar {
+        &.active {
+            width: calc(100% - 400px);
+        }
+        .sideToggleBarInner {
+            .menuSearchGroup {
+                grid-template-columns: 1fr 400px;
+            }
+        }
+    }
+}
+
+@include for-max-1399 {
+    .sideToggleBar {
+        &.active {
+            width: calc(100% - 350px);
+        }
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox,
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox {
+        padding: 60px 30px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 28px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4 {
+        font-size: 28px;
+    }
+    .sideToggleBar .sideToggleIcon {
+        top: 10px;
+        right: 10px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchList ul li a {
+        font-size: 14px;
+    }
+}
+
+@include for-max-1199 {
+    .sideToggleBar.active {
+        width: calc(100% - 100px);
+    }
+}
+
+@include for-max-991 {
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        position: static !important;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon {
+        padding: 30px 20px;
+        border-top: 1px solid #959595;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.active::after {
+        content: unset;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 30px;
+    }
+    .header {
+        padding: 15px 0;
+        .headerInner {
+            grid-template-columns: 180px 1fr;
+        }
+    }
+    .sideToggleBar.active {
+        width: calc(100% - 0px);
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup {
+        grid-template-columns: 1fr 350px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 26px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.dropdown a::after {
+        font-size: 14px;
+        right: -2px;
+    }
+}
+
+@include for-max-575 {
+    .header {
+        padding: 10px 0;
+        .headerInner {
+            grid-template-columns: 150px 1fr;
+        }
+    }
+    .sideToggleBar {
+        .sideToggleBarInner {
+            .menuSearchGroup {
+                .menuBarBox {
+                    .menuBarInner {
+                        ul {
+                            li {
+                                .dropdown-menu {
+                                    position: absolute !important;
+                                }
+                                &.active {
+                                    &::after {
+                                        content: '';
+                                        top: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner {
+        align-items: self-start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon {
+        padding: 15px;
+        border-top: 1px solid #959595;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4,
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 24px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 20px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul {
+        gap: 18px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.dropdown a::after {
+        font-size: 12px;
+        right: 0;
+    }
+    .aboutSec .aboutSecInner .aboutSecRow .aboutSecCol .aboutContent .aboutInnerContent p,
+    .footer .footerInner .footerCopyRight p {
+        font-size: 14px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox,
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox {
+        padding: 60px 15px;
+    }
+    .colGroup .colOne,
+    .colGroup .colTwo,
+    .colGroup {
+        gap: 10px;
+    }
+    .colGroup .colTwo {
+        padding-left: 10px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        margin-top: 10px !important;
+    }
+}
+
+@include for-max-375 {
+    .header {
+        .rightMenu {
+            gap: 15px;
+        }
+        .headerInner {
+            grid-template-columns: 100px 1fr;
+        }
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4,
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 20px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        position: static !important;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.active::after {
+        content: unset;
+    }
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+// import fonts CSS 
+@import 'fonts/fonts';
+
+// import variables CSS 
+@import 'variables/variables';
+
+// import mixins CSS 
+@import 'mixins/mixins';
+
+// import common CSS 
+@import 'common/common';
+
+// import component
+@import 'component/component';
+
+// import header
+@import 'header/header';
+
+// import home1
+@import 'home-page/home1/home1';
+
+// import error 404
+@import 'inner-pages/error-404/error-404';
+
+// import blog Image single
+@import 'inner-pages/blog-image-single/blog-image-single';
+
+// import blog with sidebar
+@import 'inner-pages/blog-with-sidebar/blog-with-sidebar';
+
+// import coming soon
+@import 'inner-pages/coming-soon/coming-soon';
+
+// import FAQ
+@import 'inner-pages/faq/faq';
+
+// import order confirmation
+@import 'inner-pages/order-confirmation/order-confirmation';
+
+// import team single
+@import 'inner-pages/team-single/team-single';
+
+// import shop detail
+@import 'inner-pages/shop-detail/shop-detail';
+
+// import shop detail
+@import 'inner-pages/our-team/our-team';
+
+// import contact us
+@import 'inner-pages/contact-us/contact-us';
+
+// import login register
+@import 'inner-pages/login-register/login-register';
+
+// import shopping cart
+@import 'inner-pages/shopping-cart/shopping-cart';
+
+// import blog grid view
+@import 'inner-pages/blog-grid-view/blog-grid-view';
+
+// import vehicle booking service
+@import 'inner-pages/vehicle-booking-service/vehicle-booking-service';
+
+// import shop sidebar 01
+@import 'inner-pages/shop-sidebar-01/shop-sidebar-01';
+
+// import single store service
+@import 'inner-pages/single-store-service/single-store-service';
+
+// import store services
+@import 'inner-pages/store-services/store-services';
+
+// import about us
+@import 'inner-pages/about-us/about-us';
+
+// import footer
+@import 'footer/footer';

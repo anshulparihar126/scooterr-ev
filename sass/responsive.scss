@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+/************ TABLE OF CONTENTS ***************
+
+  01. Responsive Mixin
+  02. Responsive css
+
+**********************************************/
+
+// Responsive Mixin
+@mixin for-min-768 {
+	@media (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin for-min-992 {
+	@media (min-width: 992px) {
+		@content;
+	}
+}
+
+@mixin for-min-1200 {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin for-min-1600 {
+	@media (min-width: 1600px) {
+		@content;
+	}
+}
+
+@mixin for-min-1800 {
+	@media (min-width: 1800px) {
+		@content;
+	}
+}
+
+@mixin for-max-1920 {
+	@media (max-width: 1920px) {
+		@content;
+	}
+}
+
+@mixin for-max-1899 {
+	@media (max-width: 1899px) {
+		@content;
+	}
+}
+
+@mixin for-max-1799 {
+	@media (max-width: 1799px) {
+		@content;
+	}
+}
+
+@mixin for-max-1699 {
+	@media (max-width: 1699px) {
+		@content;
+	}
+}
+
+@mixin for-max-1599 {
+	@media (max-width: 1599px) {
+		@content;
+	}
+}
+
+@mixin for-max-1440 {
+	@media (max-width: 1440px) {
+		@content;
+	}
+}
+
+@mixin for-max-1400 {
+	@media (max-width: 1400px) {
+		@content;
+	}
+}
+
+@mixin for-max-1399 {
+	@media (max-width: 1399px) {
+		@content;
+	}
+}
+
+@mixin for-max-1199 {
+	@media (max-width: 1199px) {
+		@content;
+	}
+}
+
+@mixin for-max-991 {
+	@media (max-width: 991px) {
+		@content;
+	}
+}
+
+@mixin for-max-767 {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin for-max-575 {
+	@media (max-width: 575px) {
+		@content;
+	}
+}
+
+@mixin for-max-450 {
+	@media (max-width: 450px) {
+		@content;
+	}
+}
+
+@mixin for-max-375 {
+	@media (max-width: 375px) {
+		@content;
+	}
+}
+
+@mixin for-max-350 {
+	@media (max-width: 350px) {
+		@content;
+	}
+}
+
+// import variables CSS 
+@import 'variables/variables';
+
+// import header responsive
+@import 'header/header-responsive';
+
+// import home 1 responsive
+@import 'home-page/home1/home1-responsive';
+
+// import error 404
+@import 'inner-pages/error-404/error-404-responsive';
+
+// import blog Image single
+@import 'inner-pages/blog-image-single/blog-image-single-responsive';
+
+// import blog with sidebar
+@import 'inner-pages/blog-with-sidebar/blog-with-sidebar-responsive';
+
+// import coming soon
+@import 'inner-pages/coming-soon/coming-soon-responsive';
+
+// import FAQ
+@import 'inner-pages/faq/faq-responsive';
+
+// import order confirmation
+@import 'inner-pages/order-confirmation/order-confirmation-responsive';
+
+// import team single
+@import 'inner-pages/team-single/team-single-responsive';
+
+// import shop detail
+@import 'inner-pages/our-team/our-team-responsive';
+
+// import shop detail
+@import 'inner-pages/shop-detail/shop-detail-responsive';
+
+// import contact us
+@import 'inner-pages/contact-us/contact-us-responsive';
+
+// import login register
+@import 'inner-pages/login-register/login-register-responsive';
+
+// import  shopping cart
+@import 'inner-pages/shopping-cart/shopping-cart-responsive';
+
+// import vehicle booking service
+@import 'inner-pages/vehicle-booking-service/vehicle-booking-service-responsive';
+
+// import shop sidebar 01
+@import 'inner-pages/shop-sidebar-01/shop-sidebar-01-responsive';
+
+// import single store service responsive
+@import 'inner-pages/single-store-service/single-store-service-responsive';
+
+// import store services responsive
+@import 'inner-pages/store-services/store-services-responsive';
+
+// import about us responsive
+@import 'inner-pages/about-us/about-us-responsive';
+
+
+// import footer
+@import 'footer/footer-responsive';
+ 
+
+
+// Responsive css
+@include for-min-1600 {
+	.container {
+		max-width: 1420px;
+	}
+}
+
+@include for-max-991 {
+	.preloader {
+		.preloaderInner {
+			.loaderGroup {
+				.loaderContent {
+					.loading {
+						font-size: 60px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include for-max-767 {
+	.preloader {
+		.preloaderInner {
+			.loaderGroup {
+				.loaderContent {
+					.loading {
+						font-size: 50px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include for-max-575 {
+	.preloader {
+		.preloaderInner {
+			.loaderGroup {
+				.loaderContent {
+					.loading {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}

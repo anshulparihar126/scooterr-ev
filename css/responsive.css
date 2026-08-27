@@ -1,0 +1,2746 @@
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+
+/************ TABLE OF CONTENTS ***************
+
+  01. Responsive Mixin
+  02. Responsive css
+
+**********************************************/
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+
+/************ TABLE OF CONTENTS ***************
+
+  01. other color
+  02. text color
+  03. bg color
+  04. button color
+  05. border color
+  06. font family
+  07. font weight
+
+**********************************************/
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1599px) {
+    .sideToggleBar.active {
+        width: calc(100% - 400px);
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup {
+        grid-template-columns: 1fr 400px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .sideToggleBar.active {
+        width: calc(100% - 350px);
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox,
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox {
+        padding: 60px 30px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 28px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4 {
+        font-size: 28px;
+    }
+    .sideToggleBar .sideToggleIcon {
+        top: 10px;
+        right: 10px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchList ul li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sideToggleBar.active {
+        width: calc(100% - 100px);
+    }
+}
+
+@media (max-width: 991px) {
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        position: static !important;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon {
+        padding: 30px 20px;
+        border-top: 1px solid #959595;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.active::after {
+        content: unset;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 30px;
+    }
+    .header {
+        padding: 15px 0;
+    }
+    .header .headerInner {
+        grid-template-columns: 180px 1fr;
+    }
+    .sideToggleBar.active {
+        width: calc(100% - 0px);
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup {
+        grid-template-columns: 1fr 350px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 26px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.dropdown a::after {
+        font-size: 14px;
+        right: -2px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 10px 0;
+    }
+    .header .headerInner {
+        grid-template-columns: 150px 1fr;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        position: absolute !important;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.active::after {
+        content: "";
+        top: 22px;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner {
+        align-items: self-start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon {
+        padding: 15px;
+        border-top: 1px solid #959595;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4,
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 24px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li a {
+        font-size: 20px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul {
+        gap: 18px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.dropdown a::after {
+        font-size: 12px;
+        right: 0;
+    }
+    .aboutSec .aboutSecInner .aboutSecRow .aboutSecCol .aboutContent .aboutInnerContent p,
+    .footer .footerInner .footerCopyRight p {
+        font-size: 14px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox,
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox {
+        padding: 60px 15px;
+    }
+    .colGroup .colOne,
+    .colGroup .colTwo,
+    .colGroup {
+        gap: 10px;
+    }
+    .colGroup .colTwo {
+        padding-left: 10px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .header .rightMenu {
+        gap: 15px;
+    }
+    .header .headerInner {
+        grid-template-columns: 100px 1fr;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .searchBox .searchInner .getInTouch .getInTouchHeading h4,
+    .sideToggleBar .sideToggleBarInner .sideToggleSocialIcon .sideToggleSocialIconInner h4 {
+        font-size: 20px;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li .dropdown-menu {
+        position: static !important;
+    }
+    .sideToggleBar .sideToggleBarInner .menuSearchGroup .menuBarBox .menuBarInner ul li.active::after {
+        content: unset;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1699px) {
+    .left-panel {
+        width: 40%;
+    }
+    .center-image {
+        width: 40%;
+    }
+    .right-specs {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1399px) {
+    .commonHeading h2 {
+        font-size: 40px;
+    }
+    .commonHeading h5 {
+        font-size: 20px;
+    }
+    .commonHeading p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 80%;
+    }
+    .ourQualityCardContent h6 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .ourQualityCardContent p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .ourQuality .ourQualityCard .ourQualityImg {
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+    }
+    .ourQuality .ourQualityCard .ourQualityImg img {
+        height: 200px;
+        width: 200px;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .ourQualityCardContent {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .swiper-slide.last {
+        transform: translateX(-54px);
+    }
+    .swiper-slide.first {
+        transform: translateX(54px);
+    }
+    .slide-content {
+        transform: scale(0.6) translateY(18px);
+    }
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .slide-counter {
+        top: 68px;
+    }
+    .swiper::before {
+        top: 0px;
+    }
+    .testimonial-name a {
+        font-size: 24px;
+    }
+    .slider-item {
+        padding: 50px 40px;
+    }
+    .left-panel h6 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 8px;
+    }
+    .left-panel h2 {
+        font-weight: 700;
+        font-size: 72px;
+    }
+    .right-specs span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .relatedScooterItem .relatedScooterContent p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .commonHeading h2 {
+        font-size: 32px;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox {
+        margin-top: 30px;
+    }
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 85%;
+    }
+    .swiper-slide.swiper-slide-prev {
+        transform: translateX(10px);
+    }
+    .swiper-slide.first {
+        transform: translateX(86px);
+    }
+    .swiper-slide.swiper-slide-next {
+        transform: translateX(-12px);
+    }
+    .swiper-slide.last {
+        transform: translateX(-86px);
+    }
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .slide-counter {
+        right: 4%;
+        font-size: 26px;
+    }
+    .swiper-slide-active .slide-content {
+        padding: 10px;
+        transform: scaleX(1.2);
+    }
+    .owl-theme .owl-dots {
+        margin-top: 20px !important;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .commonHeading h5 {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .commonHeading h5 svg {
+        height: 18px;
+    }
+    .right-specs h6 strong {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .right-specs h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .right-specs {
+        padding: 14px;
+    }
+    .left-panel h2 {
+        font-size: 64px;
+    }
+    .left-panel h6 {
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 991px) {
+    .commonHeading h2 {
+        font-size: 26px;
+    }
+    .commonHeading h5 {
+        font-size: 18px;
+        gap: 10px;
+    }
+    .commonHeading p {
+        font-size: 16px;
+    }
+    .subscribeNewsletter:after {
+        width: 150px;
+    }
+    .chooseYourScooter .chooseYourScooterInner {
+        width: 100%;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option span {
+        font-size: 14px;
+    }
+    .menu-options .menu-item .menu-text p {
+        font-size: 14px;
+    }
+    .menu-options .menu-item .menu-text h6 {
+        font-size: 16px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-container {
+        grid-template-columns: 180px 1fr 180px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(1) {
+        transform: translateX(16px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(2) {
+        transform: translateX(38px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(3) {
+        transform: translateX(32px);
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(4) {
+        transform: translateX(20px);
+    }
+    .menu-options .menu-item:nth-child(4) {
+        transform: translateX(-40px);
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form {
+        display: flex;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form .formGroup {
+        flex: 0 0 auto;
+        width: 50%;
+        padding: 15px;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form .formGroup.formGroupBtn {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .relatedScooterItem .relatedScooterImg img {
+        width: 130px;
+        height: 130px;
+    }
+    .relatedScooterItem .relatedScooterContent p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .commonHeading h5 {
+        font-size: 16px;
+        gap: 8px;
+    }
+    .ourQualityCardContent h6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .ourQualityCardContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .evCommonInnerPageHeading h2 {
+        font-size: 26px;
+    }
+    .swiper {
+        padding: 0px 0;
+    }
+    .swiper::after {
+        display: none;
+    }
+    .slide-counter {
+        top: 26px;
+    }
+    .swiper::before {
+        width: 100px;
+        height: 100px;
+        right: 18%;
+    }
+    .bookingForm {
+        padding: 50px 0 0;
+    }
+    .chooseYourScooter,
+    .ourQuality,
+    .moveOverPetrol,
+    .evTestimonial {
+        padding: 50px 0;
+    }
+    .left-panel {
+        width: 50%;
+    }
+    .center-image {
+        width: 50%;
+    }
+    .right-specs {
+        width: 100%;
+    }
+    .right-specs {
+        margin-top: 20px;
+    }
+    .right-specs ul {
+        display: flex;
+        gap: 20px;
+    }
+    .right-specs ul li {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .commonHeading h2 {
+        font-size: 26px;
+    }
+    .commonHeading h5 {
+        font-size: 16px;
+    }
+    .commonHeading p {
+        font-size: 14px;
+    }
+    .subscribeNewsletterInput .groupInput {
+        flex-direction: column;
+        width: 100%;
+    }
+    .commonHeading {
+        margin-bottom: 20px;
+    }
+    .evOurTeam {
+        padding: 50px 0;
+    }
+    .subscribeNewsletter {
+        padding: 40px 0;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamTabName p {
+        font-size: 20px;
+    }
+    .evOurTeamNav {
+        margin: 30px 0;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamTabName p {
+        font-size: 18px;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamIcon img {
+        width: 30px;
+        height: 30px;
+    }
+    .subscribeNewsletter:after {
+        width: 118px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-container {
+        grid-template-columns: 1fr;
+    }
+    .menu-options {
+        flex-direction: unset;
+        gap: 20px;
+        align-items: end;
+        padding: 0;
+    }
+    .menu-options::after {
+        display: none;
+    }
+    .menu-options .menu-item {
+        gap: 14px;
+        flex-direction: column-reverse;
+    }
+    .menu-options .menu-item:nth-child(1),
+    .menu-options .menu-item:nth-child(2),
+    .menu-options .menu-item:nth-child(3),
+    .menu-options .menu-item:nth-child(4),
+    .menu-options .menu-item:nth-child(5) {
+        transform: unset;
+    }
+    .menu-options .left-panel h6 {
+        font-size: 20px;
+        line-height: 12px;
+        letter-spacing: 4px;
+    }
+    .menu-options {
+        flex-direction: unset;
+        gap: 26px;
+        align-items: unset;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options {
+        padding: 0;
+        flex-direction: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option {
+        flex-direction: column;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(1),
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(2),
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(3),
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(4),
+    .chooseYourScooter .chooseYourScooterInner .color-options .color-option:nth-child(5) {
+        transform: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options::after {
+        content: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-images-Tab .cloudimage-360 .cloudimage-360-inner-box canvas {
+        transform: unset;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options {
+        justify-content: center;
+        width: 100%;
+    }
+    .right-specs span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .left-panel h2 {
+        font-size: 42px;
+    }
+    .left-panel p {
+        font-size: 12px;
+        padding-left: 12px;
+    }
+    .right-specs h6 strong {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .right-specs h6 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .left-panel h6 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 4px;
+    }
+    .slideCounter {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .slider-item {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .commonHeading h2 {
+        font-size: 20px;
+    }
+    .commonHeading svg {
+        width: 15px;
+        height: 15px;
+    }
+    .commonHeading h5 {
+        font-size: 14px;
+    }
+    .subscribeNewsletterInput .groupInput input {
+        height: 40px;
+        font-size: 14px;
+    }
+    .subscribeNewsletterInput .groupInput .btn2 {
+        height: 40px;
+    }
+    .left-panel,
+    .center-image {
+        width: 100%;
+    }
+    .center-image {
+        margin-top: 20px;
+    }
+    .right-specs ul li {
+        width: 42%;
+    }
+    .right-specs ul {
+        flex-wrap: wrap;
+    }
+    .topSliderWrapper .topSliderInner {
+        grid-template-columns: 60px 1fr;
+    }
+    .menu-options {
+        gap: 16px;
+    }
+    .menu-options .menu-item .menu-text h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .testimonial-slider {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .commonHeading h5 svg {
+        width: 8px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1399px) {
+    .error404 .plugSvg {
+        width: 500px;
+        margin-left: 90px;
+    }
+    .error404 .error404Inner .error404Content h2 {
+        margin-bottom: 0;
+    }
+    .error404 .error404Inner .error404Content {
+        width: 80%;
+        gap: 10px;
+    }
+    .error404 .error404Inner .error404Content h2 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .error404 .plugSvg {
+        width: 400px;
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+    .error404 .plugSvg {
+        width: 275px;
+        margin-left: 90px;
+    }
+    .error404 {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .error404 .error404Inner .error404Content {
+        width: 100%;
+        gap: 10px;
+    }
+    .error404 .plugSvg {
+        margin-left: 0px;
+    }
+    .error404 .error404Inner .error404Content p {
+        font-size: 14px;
+    }
+    .error404 .error404Inner .error404Content h2 {
+        font-size: 28px;
+    }
+    .error404 .error404Inner .error404Svg svg {
+        width: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+    .error404 .error404Inner .error404Svg svg {
+        width: 220px;
+        height: 120px;
+    }
+    .error404 .error404Inner .error404Content h2 {
+        font-size: 24px;
+    }
+    .error404 .error404Inner .error404Content p {
+        font-size: 12px;
+    }
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        font-size: 14px;
+    }
+    .error404 .plugSvg {
+        margin-left: 0px;
+        transform: rotate(22deg);
+        margin-top: 34px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 375px) {
+    .error404 .plugSvg {
+        width: 200px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 991px) {
+    .evBlogImageSingle {
+        padding-top: 50px;
+    }
+    .evBlogNxtPrevPagination {
+        padding: 30px 0 50px;
+    }
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleHead .evBlogImgSingleInfo ul {
+        gap: 10px 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evBlogSingleAbout .evBlogSingleAboutInner {
+        grid-template-columns: 1fr;
+    }
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleBody .evBlogImgSingleContant h2,
+    .evBlogSingleAbout .evBlogSingleAboutInner .evBlogSingleAboutTxt h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleBody .evBlogImgSingleContant p,
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleBody .evBlogImgSingleContant ul li,
+    .evBlogSingleAbout .evBlogSingleAboutInner .evBlogSingleAboutTxt p,
+    .evBlogTags .evBlogTagsInner .evBlogTags ul li a,
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleHead .evBlogImgSingleInfo ul li span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .evBlogImageSingle .evBlogImageSingleInner .evBlogImgSingleBody .evBlogImgSingleContant h5,
+    .evBlogSingleAbout .evBlogSingleAboutInner .evBlogSingleAboutTxt h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .evBlogNxtPrevPagination .evBlogNxtPrevPaginationInner .paginationBtn a strong {
+        display: none;
+    }
+    .evBlogTags .evBlogTagsInner .evBlogTagsHead h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .evBlogSidebar .evBlogSidebarHeading h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .evBlogAbout a,
+    .evBlogCardSidebarGroup .evBlogCardSidebarItem .evBlogCardSidebarContent h4 a,
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupBtn a {
+        font-size: 16px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4 a {
+        font-size: 30px;
+    }
+    .evBlogCardSidebarGroup .evBlogCardSidebarItem .evBlogCardSidebarContent span,
+    .evBlogTagSidebarGroup ul li a,
+    .evBlogCategoryItem .evBlogCategoryItemInner .evBlogCategoryItemName p,
+    .evBlogCategoryItem .evBlogCategoryItemInner .evBlogCategoryCount span,
+    .evBlogAbout p,
+    .evBlogSidebar .evBlogSidebarSearch .evSearchBar input {
+        font-size: 14px;
+    }
+    .evBlogInstagramSidebarGroup {
+        gap: 12px;
+    }
+    .audio-player .audio-details .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .evBlogSidebar {
+        position: fixed;
+        top: 0;
+        z-index: 4;
+        width: 350px;
+        border-radius: 0;
+        border: 0;
+        box-shadow: 1px 0 12px 0px rgba(156, 156, 156, 0.5);
+        height: 100vh;
+        overflow: auto;
+    }
+    .evBlogSidebar .evBlogSidebarInner {
+        position: relative;
+        padding-top: 30px;
+    }
+    .evBlogSidebar .evBlogSidebarInner .blogSidebarClose {
+        position: absolute;
+        top: 15px;
+    }
+    .evBlogSidebar.evBlogSidebarLeft {
+        transform: translateX(-550px);
+        transition: all 0.4s ease;
+        left: 0;
+    }
+    .evBlogSidebar.evBlogSidebarLeft .evBlogSidebarInner .blogSidebarClose {
+        right: 15px;
+    }
+    .evBlogSidebar.evBlogSidebarRight {
+        transform: translateX(550px);
+        transition: all 0.4s ease;
+        right: 0;
+    }
+    .evBlogSidebar.evBlogSidebarRight .evBlogSidebarInner .blogSidebarClose {
+        left: 15px;
+    }
+    .evBlogSidebar.active {
+        transform: translateX(0px);
+    }
+    .evSidebarFilterToggleOuter {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-bottom: 30px;
+    }
+    .evSidebarFilterToggleOuter a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .evSidebarFilterToggleOuter a span {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #102C35;
+    }
+    .evBlogSidebarLeftInner .evSidebarFilterToggleOuter {
+        justify-content: end;
+    }
+    .evBlogSidebarRightInner .evSidebarFilterToggleOuter {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 767px) {
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4,
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4 a {
+        font-size: 28px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4 {
+        line-height: 32px;
+    }
+    .evBlog {
+        padding: 50px 0;
+    }
+    .evBlogSidebar .evBlogSidebarInner {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evBlogSidebar .evBlogSidebarHeading h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .evBlogSidebar .evBlogSidebarItem {
+        padding: 20px 15px;
+    }
+    .evBlogAbout a,
+    .evBlogCardSidebarGroup .evBlogCardSidebarItem .evBlogCardSidebarContent h4 a,
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupBtn a {
+        font-size: 14px;
+    }
+    .evBlogCardSidebarGroup .evBlogCardSidebarItem .evBlogCardSidebarContent span,
+    .evBlogTagSidebarGroup ul li a,
+    .evBlogCategoryItem .evBlogCategoryItemInner .evBlogCategoryItemName p,
+    .evBlogCategoryItem .evBlogCategoryItemInner .evBlogCategoryCount span,
+    .evBlogAbout p,
+    .evBlogSidebar .evBlogSidebarSearch .evSearchBar input {
+        font-size: 12px;
+    }
+    .evBlogTagSidebarGroup ul {
+        gap: 6px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4,
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner h4 a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupMeta ul {
+        gap: 10px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupContentInner p,
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupContent .evBlogGroupMeta ul li {
+        font-size: 14px;
+    }
+    .audio-player .audio-details .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .audio-player .audio-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .audio-player .audio-details .artist {
+        font-size: 16px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupSlider .carousel-control-prev {
+        left: 18px;
+    }
+    .evBlogGroup .evBlogGroupInner .evBlogGroupItem .evBlogGroupSlider .carousel-control-next {
+        right: 18px;
+    }
+}
+
+@media (max-width: 375px) {
+    .evBlogSidebar {
+        width: 100%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 991px) {
+    .comingSoon .comingSoonInner .comingSoonContent {
+        width: 100%;
+    }
+    .comingSoon .comingSoonInner {
+        gap: 30px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .value {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .label {
+        line-height: 10px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .label {
+        font-size: 18px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle {
+        width: 140px;
+        height: 140px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress-circle,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        cx: 70;
+        cy: 70;
+        r: 60;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        stroke-dasharray: 377;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle {
+        width: 110px;
+        height: 110px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress-circle,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        cx: 55;
+        cy: 55;
+        r: 45;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        stroke-dasharray: 283;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent h2 {
+        font-size: 30px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .value {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .label {
+        font-size: 15px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer {
+        display: flex;
+        gap: 10px;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent p {
+        font-size: 14px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress-circle,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        stroke-width: 2;
+    }
+}
+
+@media (max-width: 575px) {
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle {
+        width: 90px;
+        height: 90px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress-circle,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        cx: 45;
+        cy: 45;
+        r: 40;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        stroke-dasharray: 251;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .label {
+        font-size: 14px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .value {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer {
+        display: flex;
+        gap: 5px;
+    }
+    .comingSoon .comingSoonInner .comingSoonBtn {
+        gap: 15px;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle {
+        width: 70px;
+        height: 70px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress-circle,
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        cx: 35;
+        cy: 35;
+        r: 30;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .circle svg .progress {
+        stroke-dasharray: 188;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .label {
+        font-size: 10px;
+    }
+    .comingSoon .comingSoonInner .countdown-timer .timer-unit .value {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent h2 {
+        font-size: 20px;
+    }
+    .comingSoon .comingSoonInner .comingSoonContent p {
+        font-size: 12px;
+    }
+    .comingSoon .comingSoonInner .comingSoonBtn {
+        gap: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .comingSoon .comingSoonInner .comingSoonBtn .btn {
+        width: 100%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1399px) {
+    .evCommonInnerPageHeading h2 {
+        font-size: 35px;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions .evStillHaveQuestionsHead h4 {
+        font-size: 24px;
+    }
+    .evFaq .evTabPaneContent .evfaqBody .evFaqContent .tab-content .evFaqAccordiontGroup .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 22px;
+    }
+    .evFaq .evFaqInner .evFaqHead .evFaqNav .nav-pills .nav-item .nav-link .evFaqItem .evFaqTabName p {
+        font-size: 20px;
+    }
+    .evInnerBanner:before {
+        width: 150px;
+        height: 150px;
+        bottom: -130px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .evFaq .evTabPaneContent .evfaqBody .evFaqContent .tab-content .evFaqAccordiontGroup .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 18px;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions .evStillHaveQuestionsHead h4 {
+        font-size: 18px;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions .evStillHaveQuestionsForm form .formGroup select {
+        height: 50px;
+    }
+    .evCommonInnerPageHeading h2 {
+        font-size: 30px;
+    }
+    .evInnerBanner:before {
+        width: 100px;
+        height: 100px;
+        bottom: -90px;
+    }
+    .evInnerBanner .evInnerBannerOuter {
+        padding: 40px 0;
+    }
+    .evInnerBanner .evInnerBannerOuter .evInnerBannerInner h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .evFaq .evFaqInner .evFaqHead .evCommonInnerPageHeading {
+        margin-bottom: 30px;
+    }
+    .evFaq .evFaqInner .evFaqHead {
+        padding-bottom: 50px;
+    }
+    .evFaq .evTabPaneContent .evfaqBody .evFaqContent .tab-content .evFaqAccordiontGroup .accordion .accordion-item .accordion-collapse .accordion-body {
+        font-size: 14px;
+    }
+    .evFaq .evTabPaneContent .evCommonInnerPageHeading {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .evCommonInnerPageHeading h2 {
+        font-size: 26px;
+    }
+    .evFaq {
+        padding: 50px 0;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions {
+        padding: 20px;
+    }
+    .evInnerBanner .evInnerBannerOuter .evInnerBannerInner h1 {
+        font-size: 20px;
+    }
+    .evInnerBanner .evInnerBannerOuter .evInnerBannerInner .breadcrumb .breadcrumb-item a {
+        font-size: 14px;
+    }
+    .evInnerBanner:before {
+        width: 80px;
+        height: 80px;
+        bottom: -65px;
+    }
+    .evCommonInnerPageHeading p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evFaq .evTabPaneContent .evfaqBody .evFaqContent .tab-content .evFaqAccordiontGroup .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+    }
+    .evCommonInnerPageHeading h2 {
+        font-size: 20px;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions {
+        padding: 15px;
+    }
+    .evFaq .evTabPaneContent .evStillHaveQuestions .evStillHaveQuestionsHead,
+    .evFaq .evTabPaneContent .evStillHaveQuestions .evStillHaveQuestionsForm form .formGroup {
+        margin-bottom: 15px;
+    }
+    .evCommonInnerPageHeading p {
+        font-size: 12px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead h4 {
+        font-size: 22px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead {
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead h4 {
+        font-size: 18px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailInfo p {
+        font-size: 14px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailInfo h6 {
+        font-size: 16px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailInfo h6 {
+        font-size: 15px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead h4 {
+        font-size: 16px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation {
+        margin-top: 30px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead .evCommonInnerPageHeading p,
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead .evCommonInnerPageHeading .evDateTime .evDate,
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead .evCommonInnerPageHeading .evDateTime .evTime {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol {
+        border-left: 0;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead,
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailInfo {
+        padding: 20px;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead {
+        border-top: 0.5px solid #858585;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow:first-child .evevOrderConfirmationCol:first-child .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead {
+        border-top: 0;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow .evevOrderConfirmationCol .evevOrderConfirmationDetail .evevOrderConfirmationDetailHead h4 {
+        margin-bottom: 0;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmation .evevOrderConfirmationRow {
+        border-bottom: 0;
+    }
+    .evOrderConfirmation .evevOrderConfirmationInner .evevOrderConfirmationHead .evCommonInnerPageHeading .evDateTime .evTime {
+        margin-left: 30px;
+    }
+    .evInnerBanner .evInnerBannerOuter .evInnerBannerInner p {
+        font-size: 14px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1599px) {
+    .evTeamMemberDetail {
+        padding: 28px 30px 28px 30px;
+    }
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem {
+        flex: 0 0 100%;
+    }
+    .evTeamMemberDetail .evTeamMemberName h4 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .evTeamInfoInner {
+        grid-template-columns: 400px 1fr;
+    }
+    .evTeamMemberDetail .evTeamMemberName h4 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .evTeamInfoInner {
+        grid-template-columns: 1fr;
+    }
+    .evTeamInfoInner .evTeamMemberImg::after {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+    .evTeamInfoInner .evTeamMemberImg {
+        padding: 10px 10px 0 10px;
+    }
+    .evTeamInfoInner .evTeamMemberImg img {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .evTeamMemberDetail {
+        margin: 0 10px;
+    }
+    .evPersonalExperince,
+    .evTeamServicesOverview,
+    .evTeamSkills {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .evTeamMemberDetail .evTeamMemberName h4 {
+        font-size: 26px;
+    }
+    .softSkillsPoints ul li {
+        font-size: 14px;
+    }
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem .evTeamMemberInfoTxt h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem .evTeamMemberInfoTxt h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem .evTeamMemberInfoIcon span {
+        width: 40px;
+        height: 40px;
+    }
+    .evTeamMemberDetail .evTeamMemberInfo .evTeamMemberInfoItem .evTeamMemberInfoIcon span img {
+        width: 18px;
+    }
+    .evTeamMemberDetail {
+        padding: 24px 15px 24px 15px;
+    }
+    .evTeamMemberSocial a {
+        width: 40px;
+        height: 40px;
+    }
+    .evTeamMemberSocial a img {
+        width: 20px;
+        height: 20px;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .progress-item-percentage {
+        font-size: 14px;
+    }
+    .evTeamInfo {
+        padding: 40px 0 0;
+    }
+    .evPersonalExperince,
+    .evTeamServicesOverview,
+    .evTeamSkills {
+        padding: 40px 0;
+    }
+    .evTeamMemberDetail .evTeamMemberName h4 {
+        font-size: 22px;
+    }
+    .evTeamMemberDetail .evTeamMemberName h6 {
+        font-size: 16px;
+    }
+    .softSkillsPoints ul li {
+        font-size: 12px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 991px) {
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h2 a {
+        font-size: 25px;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link {
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #858585;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h2 a {
+        font-size: 22px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h4 {
+        font-size: 14px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardSocialIcon ul {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evOurTeam {
+        padding: 50px 0;
+    }
+    .evOurTeamNav {
+        grid-auto-columns: 270px;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link {
+        padding: 14px 8px;
+    }
+    .evOurTeamNav .nav-pills .nav-item .nav-link .evOurTeamItem .evOurTeamTabName p {
+        font-size: 16px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h2 a {
+        font-size: 20px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent p {
+        font-size: 12px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h2 a {
+        font-size: 20px;
+    }
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .evTabPaneContent .evOurTeamBody .evOurTeamContent .evOurTeamCol {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .evCommonInnerPageHeadingTwo {
+        width: 70%;
+    }
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup .evShopGalleryRow .evShopGalleryCol .evShopGalleryContent h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterPrice ins,
+    .relatedScooterItem .relatedScooterContent .relatedScooterPrice del {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .relatedScooterItem .relatedScooterContent {
+        padding: 14px 20px;
+    }
+    .shopProductDetail {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup .evShopGalleryRow .evShopGalleryCol .evShopGalleryContent {
+        padding: 20px;
+    }
+    .evShopGalleryOne .evShopGalleryOneInner .evShopGalleryGroup,
+    .evShopGalleryOne .evShopGalleryOneInner .evShopGalleryGroup .evShopGalleryRow,
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup,
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup .evShopGalleryRow {
+        gap: 20px;
+    }
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup .evShopGalleryRow .evShopGalleryCol .evShopGalleryContent span img {
+        width: 30px;
+        height: 30px;
+    }
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup .evShopGalleryRow .evShopGalleryCol .evShopGalleryContent span {
+        width: 60px;
+        height: 60px;
+    }
+    .evCommonInnerPageHeadingTwo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .evCommonInnerPageHeadingTwo {
+        width: 100%;
+    }
+    .evShopGalleryTwo .evShopGalleryTwoInner .evShopGalleryGroup,
+    .evShopGalleryOne .evShopGalleryOneInner .evShopGalleryGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .evShopDescriptionTab ul li a {
+        padding: 12px 50px;
+    }
+    .shopProductDetail .shopProductDetailInner .booking-banner {
+        font-size: 16px;
+    }
+    .evShopDescriptionTab ul li a {
+        font-size: 16px;
+    }
+    .owl-theme .owl-dots .owl-dot.active::after {
+        width: 30px;
+    }
+    .owl-theme .owl-dots .owl-dot.active,
+    .owl-theme .owl-dots {
+        gap: 10px;
+    }
+    .shopProductDetail .shopProductDetailInner .productBuyBtn {
+        align-items: start;
+        gap: 8px;
+        flex-direction: column;
+    }
+    .shopProductDetail .shopProductDetailInner .shopProductHeadingDetail h4 {
+        font-size: 26px;
+    }
+    .color-option span,
+    .evCommonInnerPageHeadingTwo p {
+        font-size: 14px;
+    }
+    .scooter-container {
+        gap: 15px;
+        grid-template-columns: 180px 1fr;
+    }
+    .evShopDescriptionTab {
+        margin-bottom: 30px;
+    }
+    .evCommonInnerPageHeadingTwo h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .evShopDetail {
+        padding: 50px 0 0;
+    }
+    .evShopTabDescription {
+        padding: 30px 0;
+    }
+    .evShopTabContent p,
+    .evShopTabContent ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .shopProductDetail .shopProductDetailInner .shopProductSpecifications .shopProductSpecifiDetail {
+        gap: 15px;
+    }
+    .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+        width: 20px;
+    }
+    .swiper-slide.first,
+    .swiper-slide.last {
+        transform: unset;
+    }
+    .slide-counter {
+        right: 6%;
+        font-size: 18px;
+    }
+    .slide-counter {
+        top: 14px;
+    }
+    .swiper-slide.swiper-slide-next {
+        transform: translateX(16px);
+    }
+    .swiper-slide.swiper-slide-prev {
+        transform: translateX(-16px);
+    }
+    .swiper::before {
+        width: 80px;
+        height: 80px;
+        right: 14%;
+    }
+    .moveOverPetrol .relatedScooterItem,
+    .ourQuality .ourQualityCard {
+        margin-bottom: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .evShopFeaturesItem {
+        grid-template-columns: 1fr;
+    }
+    .scooter-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .color-options {
+        flex-direction: unset;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+    .color-option {
+        justify-content: start;
+        flex-direction: column-reverse;
+        transform: unset;
+    }
+    .color-options::after {
+        display: none;
+    }
+    .color-options .color-option:nth-child(1),
+    .color-options .color-option:nth-child(2),
+    .color-options .color-option:nth-child(3),
+    .color-options .color-option:nth-child(4),
+    .color-options .color-option:nth-child(5) {
+        transform: unset;
+    }
+    .color-options {
+        flex-direction: unset;
+        padding: 0;
+    }
+    .evShopFeaturesItem .evShopFeatureContent .evShopFeatureHead h4 {
+        font-size: 24px;
+    }
+    .owl-theme .owl-dots {
+        margin-top: 30px !important;
+    }
+    .relatedScooters .evCommonInnerPageHeading,
+    .evCommonInnerPageHeadingTwo {
+        margin-bottom: 30px;
+    }
+    .evShopFeatures,
+    .evShopGalleryOne {
+        padding: 30px 0 0;
+    }
+    .relatedScooters {
+        padding: 0 0 30px;
+    }
+    .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 20px;
+    }
+    .showingResults {
+        flex-direction: column;
+    }
+    .showingResults h2 {
+        font-size: 20px;
+    }
+    .evSidebarFilterToggleOuter {
+        margin-bottom: 20px;
+    }
+    .chooseYourScooter .chooseYourScooterInner .scooter-container {
+        flex-direction: column;
+    }
+    .chooseYourScooter .chooseYourScooterInner .color-options {
+        justify-content: start;
+    }
+    .chooseYourScooter .chooseYourScooterInner .menu-options {
+        flex-wrap: nowrap;
+        overflow: scroll;
+        white-space: nowrap;
+        scrollbar-width: none;
+        justify-content: start;
+    }
+    .swiper-slide-active .slide-content {
+        padding: 10px;
+        transform: unset;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox form .formGroup {
+        width: 100%;
+    }
+    .bookingForm .bookingFormInner .bookingFormBoxOuter .bookingFormBox {
+        padding: 8px;
+    }
+    .slide-counter {
+        top: -2px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1799px) {
+    .map .map_wrapper::after {
+        width: 249px;
+        height: 350px;
+        right: -11%;
+        top: -37%;
+    }
+}
+
+@media (max-width: 1699px) {
+    .map .map_wrapper::after {
+        width: 180px;
+        height: 250px;
+        right: -4%;
+        top: -33%;
+    }
+}
+
+@media (max-width: 1399px) {
+    .map .map_wrapper::after {
+        width: 180px;
+        height: 250px;
+        right: -8%;
+        top: -33%;
+    }
+}
+
+@media (max-width: 1399px) {
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem {
+        padding: 25px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsIcon {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .map .map_wrapper::after {
+        display: none;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup {
+        gap: 34px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsContent h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsIcon {
+        margin-top: -68px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem {
+        padding: 20px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsContent h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem .reachUsContent h4 {
+        margin-bottom: 15px;
+    }
+    form .formGroup input,
+    .select2-container.select2-container--default .select2-selection--single {
+        height: 50px;
+    }
+    form .formGroup input {
+        padding: 8px 20px;
+    }
+    .select2-container.select2-container--default .select2-selection--single {
+        padding: 8px 35px 8px 20px;
+    }
+    .reachUs,
+    .map {
+        padding: 50px 0;
+    }
+    .reachUs .reachUsInner .evCommonInnerPageHeading,
+    .contactForm .contactFormInner .evCommonInnerPageHeading {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reachUs .reachUsInner .reachUsBxGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .reachUs .reachUsInner .reachUsBxGroup .reachUsItem.reachUsItemBig {
+        transform: unset;
+    }
+    .footerCopyRight .footerCopyRightInner p {
+        text-align: center;
+    }
+    form .formGroup input {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+    form .formGroup input::-moz-placeholder {
+        font-size: 14px;
+    }
+    form .formGroup input::placeholder {
+        font-size: 14px;
+    }
+    form .formGroup .passwordWrapper input {
+        padding: 10px 30px 10px 14px;
+    }
+    form .formGroup .passwordWrapper .toggle-button {
+        right: 12px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages1 img {
+        height: 320px;
+        width: 300px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2 img {
+        width: 230px;
+        height: 200px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2 {
+        margin: -110px 0 0 auto;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2::after {
+        width: 54%;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages1::after {
+        width: 60%;
+    }
+    .loginRegisterFormGroup .LoginBtn {
+        margin-top: 24px;
+    }
+    form .formGroup {
+        margin-bottom: 20px;
+    }
+    .loginRegisterImages .loginRegisterImages1 img {
+        width: 290px;
+        height: 296px;
+    }
+    .loginRegisterImages .loginRegisterImages2 img {
+        width: 204px;
+        height: 182px;
+    }
+    .loginRegisterImages .loginRegisterImages2 {
+        margin: -80px 0 0 auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages1 img {
+        height: auto;
+        width: 100%;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2 img {
+        width: 100%;
+        height: auto;
+    }
+    .loginRegisterImages {
+        margin-bottom: 40px;
+    }
+    .loginRegisterImages .loginRegisterImages1 img {
+        width: 420px;
+        height: 380px;
+    }
+    .loginRegisterImages .loginRegisterImages2 img {
+        width: 350px;
+        height: 280px;
+    }
+    .loginRegisterImages .loginRegisterImages2 {
+        margin: -150px 0 0 auto;
+    }
+    .scootersConsumables.offerScooters .scootersConsumableImg {
+        margin-top: 40px;
+    }
+    .evTopServicesGroup .evTopServiceItem .evTopServiceContent h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .evTopServicesGroup .evTopServiceItem {
+        padding: 18px;
+        gap: 15px;
+    }
+    .evTopServicesGroup {
+        gap: 15px;
+    }
+    .oneStopSolution,
+    .scootersConsumables.offerScooters,
+    .evTopServices.paymentSolution,
+    .allbrand {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .loginRegister {
+        padding: 50px 0;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages1 img {
+        height: 320px;
+        width: 350px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2 img {
+        width: 280px;
+        height: 220px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2::after {
+        width: 62%;
+    }
+}
+
+@media (max-width: 575px) {
+    .dontAccount p,
+    .RememberForgotPassword .forgotPassword a,
+    .RememberForgotPassword label,
+    form .formGroup label {
+        font-size: 14px;
+    }
+    .loginRegisterForm {
+        padding: 15px 20px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .evCommonInnerPageHeading {
+        margin-bottom: 30px;
+    }
+    .RememberForgotPassword label:before {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .loginRegisterSocialMedia,
+    .loginRegisterFormGroup {
+        margin-top: 20px;
+    }
+    .loginRegisterFormGroup .LoginBtn button {
+        height: 45px;
+    }
+    .loginRegisterImages .loginRegisterImages2 {
+        text-align: right;
+    }
+    .loginRegisterImages .loginRegisterImages1 img,
+    .loginRegisterImages .loginRegisterImages2 img {
+        width: 80%;
+        height: 100%;
+    }
+    .loginRegisterImages .loginRegisterImages1::after {
+        width: 48%;
+    }
+    .loginRegisterImages .loginRegisterImages2::after {
+        width: 35%;
+    }
+}
+
+@media (max-width: 450px) {
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages1 img {
+        height: 220px;
+        width: 250px;
+    }
+    .loginRegister .loginRegisterInner .loginRegisterContent .loginRegisterImages .loginRegisterImages2 img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1399px) {
+    .evInnerCart .evCommonInnerPageHeading {
+        margin-bottom: 20px;
+    }
+    .cartTbl .table tbody tr td {
+        display: block;
+    }
+    .cartTbl .table thead {
+        display: none;
+    }
+    .cartTbl .table tbody {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .cartTbl .table tbody tr {
+        border: 1px solid #858585;
+        border-radius: 6px;
+        display: block;
+        padding: 15px;
+        position: relative;
+    }
+    .cartTbl .table tbody tr td {
+        padding: 0;
+    }
+    .cartTbl .table tbody tr td .productsDetail .productsImg {
+        border: 0;
+        height: 150px;
+    }
+    .cartTbl .table tbody tr td .productsDetail .productsTxt {
+        margin-bottom: 15px;
+    }
+    .cartTbl .table tbody tr td .cartProductPrice {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .cartTbl .table tbody tr td .cartProductPrice h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #111111;
+        margin-bottom: 0;
+    }
+    .cartTbl .table tbody tr td .cartProductPrice b {
+        font-weight: 400;
+    }
+    .cartTbl .table tbody tr td .cartProductTotalPrice {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .cartTbl .table tbody tr td .cartProductTotalPrice h6 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #111111;
+        margin-bottom: 0;
+    }
+    .cartTbl .table tbody tr td .cartProductTotalPrice b {
+        font-weight: 400;
+    }
+    .cartTbl .table tbody tr td .productsDetail {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .cartTbl .table tbody tr td .removeBtn {
+        position: absolute;
+        top: 15px;
+        right: 6px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .cartSidebar .cartSidebarItem {
+        margin-top: 0;
+    }
+    .cartSidebar .cartSidebarItem .cartSidebarHeading h4 {
+        font-size: 22px;
+    }
+    .cartSidebar .cartSidebarItem .cartSidebarHeading,
+    .cartBillingSummaryGroup,
+    .cartBillingSummaryTotal {
+        padding: 14px 18px;
+    }
+    .cartBillingSummary table tr td span,
+    .cartBillingSummaryTotal table tr td span {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .couponCode .collapseBtn {
+        font-size: 16px;
+    }
+    .couponCode {
+        margin-top: 14px;
+    }
+    .cartSidebar {
+        margin-top: 20px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup .howItWorkItem h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup .howItWorkItem {
+        padding: 18px;
+    }
+    .allbrand .allbrandInner .brandsSlider .brandsCarousel .brandLogo {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .howItWorks .howItWorksInner .howItWorksImg {
+        width: 30%;
+    }
+    .howItWorks .howItWorksInner .howItWorkContant {
+        width: 65%;
+    }
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup .howItWorkItem {
+        width: 45%;
+    }
+    .howItWorks .howItWorksInner .howItWorksImg:before {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .howItWorks .howItWorksInner {
+        flex-direction: column;
+    }
+    .howItWorks .howItWorksInner .howItWorksImg,
+    .howItWorks .howItWorksInner .howItWorkContant,
+    .sendOtp .loginRegisterInner .evCommonInnerPageHeading {
+        width: 100%;
+    }
+    .ourHappyClientsSlider .ourHappyClientCarousel .ourHappyClientItem .ourHappyClientContent {
+        padding: 20px 20px 70px;
+    }
+    .faq .faqInner .faqGroup .accordion .card .card-header .btn {
+        font-size: 20px;
+        padding-right: 40px;
+    }
+    .sendOtp {
+        padding: 60px 0;
+    }
+    .sendOtp .loginRegisterInner .evCommonInnerPageHeading h2 {
+        margin-bottom: 30px;
+    }
+    .loginRegisterImages .loginRegisterImages2 {
+        margin: -70px 0 0 auto;
+    }
+    .allbrand .allbrandInner .brandsSlider .brandsCarousel .owl-dots,
+    .ourHappyClientsSlider .ourHappyClientCarousel .owl-dots {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .brandsSlider {
+        padding: 0 15px;
+    }
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup .howItWorkItem {
+        width: 100%;
+    }
+    .howItWorks .howItWorksInner .howItWorkContant .howItWorksGroup {
+        gap: 15px;
+    }
+    .sendOtp .loginRegisterInner .loginRegisterForm .evCommonInnerPageHeading h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .ourHappyClientsSlider .ourHappyClientCarousel .ourHappyClientItem .ourHappyClientContent p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .ourHappyClientsSlider .ourHappyClientCarousel .ourHappyClientItem .ourHappyClientInfo .ourHappyClientInfoInner h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .ourHappyClientsSlider .ourHappyClientCarousel .ourHappyClientItem .ourHappyClientInfo .ourHappyClientInfoInner::after {
+        width: 270px;
+    }
+    .howItWorks {
+        padding: 0 0 40px;
+    }
+    .faq {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .ourHappyClientsSlider .ourHappyClientCarousel .ourHappyClientItem .ourHappyClientInfo .ourHappyClientInfoInner::after {
+        width: 250px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1399px) {
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterImg {
+        padding: 14px 16px;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterImg .shopRelatedScooter .shopProductLogo img {
+        height: 40px;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterContent .relatedScooterPrice {
+        align-items: self-start;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterContent .relatedScooterPrice ins,
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterContent .relatedScooterPrice del {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree .relatedScooterItem .relatedScooterContent .relatedScooterHead h5 a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .relatedScooterBtn .btn3 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .ourBrandlogoGroup form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupListView .relatedScooterItem {
+        grid-template-columns: 150px 1fr;
+    }
+    .relatedScooterItem .relatedScooterImg .shopRelatedScooter {
+        flex-direction: column;
+    }
+    .relatedScooterItem .relatedScooterImg,
+    .relatedScooterItem .relatedScooterContent {
+        padding: 12px 14px;
+    }
+    .relatedScooterItem .relatedScooterImg img {
+        width: auto;
+        height: auto;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupListView .relatedScooterItem p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupTwo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupListView {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupListView .relatedScooterItem {
+        grid-template-columns: 1fr;
+    }
+    .shopProductGroup .shopProductGroupInner.shopProductGridGroupThree {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 991px) {
+    .storeServiceCardItem {
+        flex-direction: column-reverse;
+    }
+    .storeServiceCardItem .storeServiceCardImg,
+    .storeServiceCardItem .storeServiceCardTxt {
+        width: 100%;
+    }
+    .relatedServices .evCommonInnerPageHeading {
+        width: 100%;
+    }
+    .storeService.shopCategory .storeServiceCardGroup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .scootersConsumables {
+        padding: 50px 0;
+    }
+    .storeService {
+        padding-bottom: 50px;
+    }
+    .relatedServices {
+        padding: 50px 0;
+    }
+    .relatedServices .evCommonInnerPageHeading {
+        margin: 0 auto 40px;
+    }
+    .singleStoreServiceBanner .singleStoreServiceBannerInner .singleStoreServiceBannerContent {
+        gap: 40px;
+    }
+    .storeService.shopCategory {
+        padding: 50px 0;
+    }
+    .allbrand .allbrandInner .brandsSlider .brandsCarousel .brandLogo {
+        padding: 22px 30px;
+    }
+    .singleStoreServiceBanner .singleStoreServiceBannerInner .singleStoreServiceBannerContent h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .singleStoreServiceBanner {
+        height: 320px;
+    }
+}
+
+@media (max-width: 575px) {
+    .storeServiceCardItem {
+        padding: 15px;
+    }
+    .storeServiceCardItem .storeServiceCardTxt p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .scootersConsumables {
+        padding: 30px 0;
+    }
+    .relatedServices {
+        padding: 30px 0;
+    }
+    .singleStoreServiceBanner .singleStoreServiceBannerInner .singleStoreServiceBannerContent h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .singleStoreServiceBanner .singleStoreServiceBannerInner .singleStoreServiceBannerContent {
+        gap: 20px;
+    }
+    .relatedServicesCarousel .owl-stage-outer .owl-stage .item .relatedServicesItem .relatedServicesCard .relatedServicesTxt p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .storeServiceCardGroup,
+    .storeService.shopCategory .storeServiceCardGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .storeServiceCardImg img {
+        width: 100%;
+    }
+    .relatedServices .relatedServicesInner {
+        padding: 0 15px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .evTopServicesGroup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .scootersConsumableContent.offerScootersContent .commonHeading h2 {
+        font-size: 38px;
+    }
+    .scootersConsumables.offerScooters .scootersConsumableImg .scootersConsumableTxt h5 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .scootersConsumables.offerScooters .scootersConsumableImg .scootersConsumableTxt {
+        width: 260px;
+        padding: 20px 32px;
+        position: absolute;
+        bottom: 30px;
+    }
+    .scootersConsumableContent.offerScootersContent .commonHeading h5 span,
+    .offerScooterPoints ul li span,
+    .offerScooterPoints ul li p {
+        font-size: 20px;
+    }
+    .offerScooterPoints {
+        margin-bottom: 40px;
+    }
+    .basicServiceGroup .basicServiceItem h5 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .basicService .basicServiceInner .commonHeading h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .basicService .basicServiceInner .commonHeading h5 span {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .basicServiceGroup .basicServiceItem {
+        padding: 8px 14px;
+    }
+    .storeServiceCardItem .storeServiceCardTxt h4 a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .storeServiceCardItem .storeServiceCardTxt p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .scootersConsumableContent.offerScootersContent .commonHeading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .evTopServicesGroup,
+    .evTopServices.paymentSolution .evTopServicesGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .scootersConsumableContent.offerScootersContent .commonHeading h2 {
+        font-size: 20px;
+    }
+    .scootersConsumableContent.offerScootersContent .commonHeading h5 span {
+        font-size: 14px;
+    }
+    .scootersConsumables.offerScooters .scootersConsumableImg .scootersConsumableTxt h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .scootersConsumables.offerScooters .scootersConsumableImg .scootersConsumableTxt {
+        width: 200px;
+        padding: 12px 20px;
+    }
+    .basicService .basicServiceInner .commonHeading h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .basicService .basicServiceInner .commonHeading h5 span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .basicServiceGroup {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .basicServiceGroup .basicServiceItem:nth-child(1),
+    .basicServiceGroup .basicServiceItem:nth-child(3) {
+        border-right: 0;
+    }
+    .basicServiceGroup .basicServiceItem {
+        border-bottom: 0.5px solid #858585;
+    }
+    .basicServiceGroup .basicServiceItem:last-child {
+        border-bottom: 0;
+    }
+    .evTopServicesGroup .evTopServiceItem .evTopServiceContent h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .evTopServicesGroup .evTopServiceItem .evTopServiceContent p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .offerScooterPoints ul li p {
+        font-size: 16px;
+    }
+    .offerScooterPoints ul li {
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+    .scootersConsumableContent.offerScootersContent .commonHeading p {
+        font-size: 14px;
+    }
+    .loginRegisterImages .loginRegisterImages1 {
+        padding: 6px 0 6px 6px;
+    }
+    .loginRegisterImages .loginRegisterImages2 {
+        padding: 6px 6px 6px 0;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .evOurTeamCard .evOurTeamCardInner .evOurTeamCardContent .evOurTeamCardTxtHead h2 a {
+        font-size: 24px;
+    }
+    .aboutUs .aboutUsInner .commonHeading h2,
+    .ourAchivementItem .ourAchivementContent h4 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .aboutUs .aboutUsInner .scootersConsumableImg2 {
+        margin-top: 20px;
+    }
+    .ourAchivementItem {
+        padding: 15px;
+        height: 100%;
+    }
+    .ourAchivementItem {
+        padding: 15px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .evAboutVideo {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .visionMissionImage {
+        padding: 30px 0;
+    }
+    .aboutUs,
+    .aboutOurTeam {
+        padding: 50px 0;
+    }
+    .ourAchivements,
+    .visionMission {
+        padding: 0 0 50px;
+    }
+    .owl-theme .owl-dots {
+        margin-top: 20px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .aboutUs .aboutUsInner .commonHeading h2 {
+        font-size: 20px;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Scooterr EV
+  Author: Webstrot
+  Version: 1.0.0
+*/
+
+@media (max-width: 1199px) {
+    .footerHeading h4 {
+        font-size: 22px;
+    }
+    .footerAbout .footerLogo {
+        width: 180px;
+    }
+    .footerAbout .footerPara p,
+    .footerMenu .footerMenuList ul li a {
+        font-size: 14px;
+    }
+    .footerCopyRight .footerCopyRightInner p,
+    .footerCopyRight .footerCopyRightInner ul li a {
+        font-size: 14px;
+    }
+    .footerCopyRight {
+        padding: 16px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .footerCopyRight .footerCopyRightInner {
+        gap: 0;
+        flex-direction: column;
+    }
+    .footer .footerInner {
+        position: relative;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerHeading h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footerCopyRight .footerCopyRightInner p,
+    .footerCopyRight .footerCopyRightInner ul li a {
+        font-size: 12px;
+    }
+    .footerCopyRight .footerCopyRightInner p .map .map_wrapper #dvMap,
+    .footerCopyRight .footerCopyRightInner ul li a .map .map_wrapper #dvMap {
+        height: 500px;
+    }
+}
+
+@media (max-width: 450px) {
+    .map .map_wrapper #dvMap {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1420px;
+    }
+}
+
+@media (max-width: 991px) {
+    .preloader .preloaderInner .loaderGroup .loaderContent .loading {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .preloader .preloaderInner .loaderGroup .loaderContent .loading {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .preloader .preloaderInner .loaderGroup .loaderContent .loading {
+        font-size: 20px;
+    }
+}
+
+
+/*# sourceMappingURL=responsive.css.map */
