@@ -36,32 +36,175 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-<style>
-.zuwix-scooter-img{width:auto!important;max-width:100%!important;height:520px!important;object-fit:contain;display:block;margin:auto;}
-.zuwix-catalogue{padding:80px 0;background:#f7fafb;}
-.zuwix-section-heading{text-align:center;max-width:850px;margin:0 auto 45px;}
-.zuwix-section-heading>span{color:#08bda5;font-weight:700;letter-spacing:4px;}
-.zuwix-section-heading h2{font-size:48px;text-transform:uppercase;margin:10px 0 15px;color:#102c35;}
-.zuwix-section-heading p{color:#66757c;line-height:1.7;margin:0;}
-.zuwix-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;}
-.zuwix-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(16,44,53,.10);border:1px solid #e7eef0;}
-.zuwix-card-image{height:300px;background:#0d2b38;display:flex;align-items:center;justify-content:center;padding:18px;}
-.zuwix-card-image img{width:100%;height:100%;object-fit:contain;}
-.zuwix-card-body{padding:25px;}
-.zuwix-brand{text-transform:uppercase;color:#08bda5;font-size:12px;letter-spacing:2px;font-weight:700;}
-.zuwix-card h3{font-size:30px;color:#102c35;margin:5px 0 18px;}
-.zuwix-spec-list{list-style:none;padding:0;margin:0 0 18px;}
-.zuwix-spec-list li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid #edf1f2;font-size:13px;}
-.zuwix-spec-list li span{color:#718087;}
-.zuwix-spec-list li strong{text-align:right;color:#102c35;}
-.zuwix-features{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 20px;}
-.zuwix-features span{background:#e9fbf7;color:#087c6e;border-radius:20px;padding:6px 9px;font-size:11px;font-weight:600;}
-.zuwix-contact-strip{padding:45px 0;background:#102c35;color:#fff;text-align:center;}
-.zuwix-contact-strip h3{font-size:32px;margin-bottom:10px;color:#08fac2;}
-.zuwix-contact-strip p{margin:5px 0;color:#d8e3e6;}
-@media(max-width:991px){.zuwix-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.zuwix-scooter-img{height:420px!important;}.zuwix-section-heading h2{font-size:38px;}}
-@media(max-width:575px){.zuwix-grid{grid-template-columns:1fr;}.zuwix-scooter-img{height:330px!important;}.zuwix-section-heading h2{font-size:32px;}}
-</style>
+    <style>
+        .zuwix-scooter-img {
+            width: auto!important;
+            max-width: 100%!important;
+            height: 520px!important;
+            object-fit: contain;
+            display: block;
+            margin: auto;
+        }
+        
+        .zuwix-catalogue {
+            padding: 80px 0;
+            background: #f7fafb;
+        }
+        
+        .zuwix-section-heading {
+            text-align: center;
+            max-width: 850px;
+            margin: 0 auto 45px;
+        }
+        
+        .zuwix-section-heading>span {
+            color: #08bda5;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+        
+        .zuwix-section-heading h2 {
+            font-size: 48px;
+            text-transform: uppercase;
+            margin: 10px 0 15px;
+            color: #102c35;
+        }
+        
+        .zuwix-section-heading p {
+            color: #66757c;
+            line-height: 1.7;
+            margin: 0;
+        }
+        
+        .zuwix-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 28px;
+        }
+        
+        .zuwix-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(16, 44, 53, .10);
+            border: 1px solid #e7eef0;
+        }
+        
+        .zuwix-card-image {
+            height: 300px;
+            background: #0d2b38;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+        }
+        
+        .zuwix-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .zuwix-card-body {
+            padding: 25px;
+        }
+        
+        .zuwix-brand {
+            text-transform: uppercase;
+            color: #08bda5;
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        
+        .zuwix-card h3 {
+            font-size: 30px;
+            color: #102c35;
+            margin: 5px 0 18px;
+        }
+        
+        .zuwix-spec-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 18px;
+        }
+        
+        .zuwix-spec-list li {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 8px 0;
+            border-bottom: 1px solid #edf1f2;
+            font-size: 13px;
+        }
+        
+        .zuwix-spec-list li span {
+            color: #718087;
+        }
+        
+        .zuwix-spec-list li strong {
+            text-align: right;
+            color: #102c35;
+        }
+        
+        .zuwix-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            margin: 16px 0 20px;
+        }
+        
+        .zuwix-features span {
+            background: #e9fbf7;
+            color: #087c6e;
+            border-radius: 20px;
+            padding: 6px 9px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .zuwix-contact-strip {
+            padding: 45px 0;
+            background: #102c35;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .zuwix-contact-strip h3 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #08fac2;
+        }
+        
+        .zuwix-contact-strip p {
+            margin: 5px 0;
+            color: #d8e3e6;
+        }
+        
+        @media(max-width:991px) {
+            .zuwix-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            .zuwix-scooter-img {
+                height: 420px!important;
+            }
+            .zuwix-section-heading h2 {
+                font-size: 38px;
+            }
+        }
+        
+        @media(max-width:575px) {
+            .zuwix-grid {
+                grid-template-columns: 1fr;
+            }
+            .zuwix-scooter-img {
+                height: 330px!important;
+            }
+            .zuwix-section-heading h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -536,10 +679,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -557,10 +704,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -578,10 +729,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -599,10 +754,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1000</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>160</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 80-90 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -620,10 +779,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -637,14 +800,18 @@
                                 <a href="#zuwix-scooters" class="btn btn1" data-aos="fade-up" data-aos-delay="100">View Details</a>
                             </div>
                             <div class="center-image" data-aos="fade-up" data-aos-delay="100">
-                                <img class="zuwix-scooter-img" src="images/zuwix-scooters/bmw.png" alt="Zuwix Mobility BMW electric scooter">
+                                <img class="zuwix-scooter-img" src="images/zuwix-scooters/bmw.jpeg" alt="Zuwix Mobility BMW electric scooter">
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -662,10 +829,14 @@
                             </div>
                             <div class="right-specs">
                                 <ul>
-                                    <li><h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
-                                    <li><h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
-                                    <li><h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
-                                    <li><h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
+                                    <li>
+                                        <h6><strong>1200</strong> W</h6><span>MOTOR</span></li>
+                                    <li>
+                                        <h6><strong>180</strong> KG</h6><span>LOAD CAPACITY</span></li>
+                                    <li>
+                                        <h6><strong>4-5 / 3-4</strong> HRS</h6><span>CHARGING TIME</span></li>
+                                    <li>
+                                        <h6><strong>60-75 / 90-100 KM</strong></h6><span>RANGE</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -673,55 +844,170 @@
                 </div>
             </div>
         </section>
-<section id="zuwix-scooters" class="zuwix-catalogue">
-  <div class="container">
-    <div class="zuwix-section-heading"><span>ZUWIX MOBILITY</span><h2>Our Electric Scooters</h2><p>Explore the seven models from the specifications provided by Zuwix Mobility. Specifications are shown as provided; prices are not listed because no prices were present in the supplied images.</p></div>
-    <div class="zuwix-grid"><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/eagle.png" alt="Zuwix Mobility EAGLE"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>EAGLE</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>160 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li><li><span>Motor</span><strong>1000W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/zx-pro.png" alt="Zuwix Mobility ZX-PRO"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>ZX-PRO</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>160 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li><li><span>Motor</span><strong>1000W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/argh.png" alt="Zuwix Mobility ARGH"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>ARGH</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>160 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li><li><span>Motor</span><strong>1000W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/grace.png" alt="Zuwix Mobility GRACE"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>GRACE</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>160 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li><li><span>Motor</span><strong>1000W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/megnus.png" alt="Zuwix Mobility MEGNUS"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>MEGNUS</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>180 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li><li><span>Motor</span><strong>1200W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/bmw.png" alt="Zuwix Mobility BMW"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>BMW</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>180 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li><li><span>Motor</span><strong>1200W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article><article class="zuwix-card">
-  <div class="zuwix-card-image"><img src="images/zuwix-scooters/zm-s1.png" alt="Zuwix Mobility ZM S1"></div>
-  <div class="zuwix-card-body"><div class="zuwix-brand">Zuwix Mobility</div><h3>ZM S1</h3>
-  <ul class="zuwix-spec-list"><li><span>Battery Voltage</span><strong>60V / 72V</strong></li><li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li><li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li><li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li><li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li><li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li><li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li><li><span>Body Type</span><strong>ABS PLASTIC</strong></li><li><span>Load Capacity</span><strong>180 KG</strong></li><li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li><li><span>Motor</span><strong>1200W</strong></li></ul>
-  <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
-  <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
-</article></div>
-  </div>
-</section>
-<section id="zuwix-booking" class="zuwix-contact-strip"><div class="container"><h3>Dealer / Franchise Enquiry</h3><p><strong>Phone:</strong> +91 7089899123 &nbsp; | &nbsp; <strong>Email:</strong> info@zuwix.in</p><p>Pillar No. 233, Hoshiyarpur, Sec-52, Near Metro Station, Noida</p></div></section>
+        <section id="zuwix-scooters" class="zuwix-catalogue">
+            <div class="container">
+                <div class="zuwix-section-heading"><span>ZUWIX MOBILITY</span>
+                    <h2>Our Electric Scooters</h2>
+                    <p>Explore the seven models from the specifications provided by Zuwix Mobility. Specifications are shown as provided; prices are not listed because no prices were present in the supplied images.</p>
+                </div>
+                <div class="zuwix-grid">
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/eagle.png" alt="Zuwix Mobility EAGLE"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>EAGLE</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>160 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li>
+                                <li><span>Motor</span><strong>1000W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/zx-pro.png" alt="Zuwix Mobility ZX-PRO"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>ZX-PRO</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>160 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li>
+                                <li><span>Motor</span><strong>1000W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/argh.png" alt="Zuwix Mobility ARGH"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>ARGH</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>160 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li>
+                                <li><span>Motor</span><strong>1000W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/grace.png" alt="Zuwix Mobility GRACE"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>GRACE</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>48V / 60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 80-90 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>160 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 10&quot;</strong></li>
+                                <li><span>Motor</span><strong>1000W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/megnus.png" alt="Zuwix Mobility MEGNUS"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>MEGNUS</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>180 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li>
+                                <li><span>Motor</span><strong>1200W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/bmw.png" alt="Zuwix Mobility BMW"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>BMW</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>180 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li>
+                                <li><span>Motor</span><strong>1200W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                    <article class="zuwix-card">
+                        <div class="zuwix-card-image"><img src="images/zuwix-scooters/zm-s1.png" alt="Zuwix Mobility ZM S1"></div>
+                        <div class="zuwix-card-body">
+                            <div class="zuwix-brand">Zuwix Mobility</div>
+                            <h3>ZM S1</h3>
+                            <ul class="zuwix-spec-list">
+                                <li><span>Battery Voltage</span><strong>60V / 72V</strong></li>
+                                <li><span>Battery Type</span><strong>GRAPHENE / LITHIUM</strong></li>
+                                <li><span>Charging Time</span><strong>4-5 HOURS / 3-4 HOURS</strong></li>
+                                <li><span>Range</span><strong>60-75 / 90-100 KM / CHARGE</strong></li>
+                                <li><span>Brake</span><strong>F-DISC / R-DISC / DRUM</strong></li>
+                                <li><span>Speedo Meter</span><strong>DIGITAL METER</strong></li>
+                                <li><span>Drive Mode</span><strong>123 DRIVE MODE</strong></li>
+                                <li><span>Body Type</span><strong>ABS PLASTIC</strong></li>
+                                <li><span>Load Capacity</span><strong>180 KG</strong></li>
+                                <li><span>Tyre Size</span><strong>TUBELESS - 12&quot;</strong></li>
+                                <li><span>Motor</span><strong>1200W</strong></li>
+                            </ul>
+                            <div class="zuwix-features"><span>Remote Lock</span><span>Reverse Park Facility</span><span>Mobile Charging Point</span><span>Anti Theft Lock</span></div>
+                            <a href="#zuwix-booking" class="btn btn1">Enquire / Book</a></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="zuwix-booking" class="zuwix-contact-strip">
+            <div class="container">
+                <h3>Dealer / Franchise Enquiry</h3>
+                <p><strong>Phone:</strong> +91 7089899123 &nbsp; | &nbsp; <strong>Email:</strong> info@zuwix.in</p>
+                <p>Pillar No. 233, Hoshiyarpur, Sec-52, Near Metro Station, Noida</p>
+            </div>
+        </section>
 
 
         <section class="w-100 clearfix bookingForm" id="bookingForm">
@@ -1779,19 +2065,22 @@
         </footer>
         <!--footer section end-->
 
-    
+
         <section class="rawat-ev-business-info" style="padding:50px 20px;">
-          <div class="container">
-            <h2>Rawat EV Motors</h2>
-            <h4>EV Service Center | Authorised Dealer of Zuwix Mobility</h4>
-            <p>Welcome to Rawat EV Motors, your trusted destination for advanced electric mobility solutions and an authorized dealer of Zuwix Mobility. We are committed to providing high-quality electric vehicles that combine performance, affordability, innovation, and eco-friendly technology for modern Indian roads. Our mission is to promote sustainable transportation by offering reliable electric scooters, electric motorcycles, and EV solutions designed for daily commuting, commercial use, and smart urban mobility. At Rawat EV Motors, customer satisfaction is our top priority. We offer a wide range of electric scooters and EV products equipped with modern technology, lithium battery systems, long-range performance, stylish designs, and low maintenance.</p>
-            <p><strong>Address:</strong> Shop Number - 2, Dhan Singh Market, Near Janta Flat, Sarfabad Village, Sarfabad, Sector 73, Noida, Basi Bahuddin Nagar, Uttar Pradesh 201316</p>
-            <p><strong>Phone:</strong> <a href="tel:+917089899123">070898 99123</a></p>
-            <p><strong>Google Rating:</strong> 5.0 (5 Google reviews)</p>
-          </div>
+            <div class="container">
+                <h2>Rawat EV Motors</h2>
+                <h4>EV Service Center | Authorised Dealer of Zuwix Mobility</h4>
+                <p>Welcome to Rawat EV Motors, your trusted destination for advanced electric mobility solutions and an authorized dealer of Zuwix Mobility. We are committed to providing high-quality electric vehicles that combine performance, affordability,
+                    innovation, and eco-friendly technology for modern Indian roads. Our mission is to promote sustainable transportation by offering reliable electric scooters, electric motorcycles, and EV solutions designed for daily commuting, commercial
+                    use, and smart urban mobility. At Rawat EV Motors, customer satisfaction is our top priority. We offer a wide range of electric scooters and EV products equipped with modern technology, lithium battery systems, long-range performance,
+                    stylish designs, and low maintenance.</p>
+                <p><strong>Address:</strong> Shop Number - 2, Dhan Singh Market, Near Janta Flat, Sarfabad Village, Sarfabad, Sector 73, Noida, Basi Bahuddin Nagar, Uttar Pradesh 201316</p>
+                <p><strong>Phone:</strong> <a href="tel:+917089899123">070898 99123</a></p>
+                <p><strong>Google Rating:</strong> 5.0 (5 Google reviews)</p>
+            </div>
         </section>
-        
-</main>
+
+    </main>
     <!--Scripts-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
